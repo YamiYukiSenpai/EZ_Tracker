@@ -8,4 +8,8 @@
     <string name="login_e_mail">E-mail</string>
     <string name="login_sign_up">Sign Up</string>
     <string name="login_forgot_your_password">Forgot Your Password?</string>
+    <string name="title_activity_simplemode">simplemode</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
