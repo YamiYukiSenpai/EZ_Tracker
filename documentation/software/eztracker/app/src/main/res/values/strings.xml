@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="ez_android_tracker">EZ Tracker</string>
+    <string name="login">Login:</string>
+    <string name="login_home">Login</string>
+    <string name="reset">Reset</string>
+</resources>
