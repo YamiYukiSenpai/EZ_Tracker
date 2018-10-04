@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:background="#d65a99b6"
+        android:background="#d6023b54"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ez_android_tracker"
-        android:textColor="@android:color/background_dark"
+        android:textColor="#f7f7f7"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,13 +50,14 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="100dp"
-        android:layout_height="61dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="#00ffffff"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/login"
+        android:textColor="#f7f7f7"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,8 +74,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Password"
-        android:textColor="@android:color/background_dark"
+        android:text="Password:"
+        android:textColor="#f7f7f7"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,7 +103,7 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="341dp"
+        android:layout_width="340dp"
         android:layout_height="49dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -115,7 +116,7 @@
         app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintVertical_bias="0.356" />
 
     <Button
         android:id="@+id/button"
