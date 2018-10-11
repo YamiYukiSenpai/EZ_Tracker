@@ -110,10 +110,28 @@
         android:layout_width="276dp"
         android:layout_height="46dp"
         android:layout_marginTop="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintTop_toBottomOf="@+id/height_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:hint="Password"
         tools:layout_editor_absoluteX="39dp" />
+
+    <EditText
+        android:id="@+id/birthday_datePicker"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_editText"
+        tools:hint="Date" />
 
 </android.support.constraint.ConstraintLayout>
