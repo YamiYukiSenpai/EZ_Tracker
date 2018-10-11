@@ -18,7 +18,10 @@
         </activity>
         <activity
             android:name=".simplemode"
-            android:label="@string/title_activity_simplemode"></activity>
+            android:label="@string/title_activity_simplemode" />
+        <activity
+            android:name=".simple_mode"
+            android:label="@string/title_activity_simple_mode"></activity>
     </application>
 
 </manifest>
