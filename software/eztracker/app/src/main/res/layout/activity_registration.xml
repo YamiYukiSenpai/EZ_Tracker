@@ -43,22 +43,25 @@
         android:layout_width="283dp"
         android:layout_height="47dp"
         android:layout_marginStart="36dp"
-        android:layout_marginEnd="36dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/email_editText"
-        tools:layout_editor_absoluteX="39dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_editText" />
 
     <EditText
         android:id="@+id/weight_editText"
         android:layout_width="123dp"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
+        android:layout_marginStart="36dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteX="39dp"
         tools:hint = "Weight (kg)"/>
 
@@ -67,9 +70,11 @@
         android:layout_width="123dp"
         android:layout_height="48dp"
         android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toEndOf="@+id/weight_editText"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:hint="Height (m)"
         tools:layout_editor_absoluteY="253dp" />
 
