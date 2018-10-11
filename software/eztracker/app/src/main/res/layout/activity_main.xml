@@ -106,6 +106,7 @@
 
     <Button
         android:id="@+id/signup"
+        android:onClick="loginSignUp"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
