@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Registration"
+            android:label="Sign up">
+        </activity>
         <activity
             android:name=".simplemode"
             android:label="@string/title_activity_simplemode" />
