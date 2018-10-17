@@ -1,137 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Registration">
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/register_toolbar"
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-
-    <TextView
-        android:id="@+id/register_textView"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registration"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-    <EditText
-        android:id="@+id/email_editText"
-        android:layout_width="283dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_toolbar"
-        tools:hint="E-Mail *" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/register_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <EditText
-        android:id="@+id/name_editText"
-        android:layout_width="283dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_editText" />
+    </android.support.design.widget.AppBarLayout>
 
-    <EditText
-        android:id="@+id/weight_editText"
-        android:layout_width="123dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginStart="36dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteX="39dp"
-        tools:hint = "Weight (kg)"/>
 
-    <EditText
-        android:id="@+id/height_editText"
-        android:layout_width="123dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toEndOf="@+id/weight_editText"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:hint="Height (m)"
-        tools:layout_editor_absoluteY="253dp" />
+    <include layout="@layout/content_registration"/>
 
-    <RadioGroup
-        android:id="@+id/radioGroup2"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/name_editText"
-        tools:layout_editor_absoluteX="90dp">
-
-        <RadioButton
-            android:id="@+id/male_radioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Male"
-            app:layout_constraintBottom_toTopOf="@+id/weight_editText"
-            app:layout_constraintTop_toBottomOf="@+id/name_editText"
-            app:layout_constraintVertical_bias="0.0"
-            tools:layout_editor_absoluteX="99dp" />
-
-        <RadioButton
-            android:id="@+id/female_radioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Female"
-            tools:layout_editor_absoluteX="196dp" />
-    </RadioGroup>
-
-    <EditText
-        android:id="@+id/password_editText"
-        android:layout_width="276dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintTop_toBottomOf="@+id/height_editText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:hint="Password"
-        tools:layout_editor_absoluteX="39dp" />
-
-    <EditText
-        android:id="@+id/birthday_datePicker"
-        android:layout_width="278dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_editText"
-        tools:hint="Date" />
-
-</android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>
