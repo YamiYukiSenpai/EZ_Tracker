@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="JG">Jonas Gamao</string>
+    <string name="RM">Ryan Maynard</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Terminé"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Voir toutes les chaînes"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionnez une application"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DÉSACTIVÉ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVÉ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Recherche en cours..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="about_us_header">À propos de nous</string>
+    <string name="aboutus_statement">EZ Tracker a été créé grâce aux efforts de collaboration de Ryan Maynard, Jonas Gamao et Delroy Christie. L’application a été développée pour répondre aux besoins d’un certain segment de la population en matière de mise en place d’un outil simple mais puissant pour les aider sur la voie d’une vie saine et productive. Nous avons longuement réfléchi à la création d’une interface utilisateur simple que même les utilisateurs non avertis peuvent facilement comprendre et naviguer.</string>
+    <string name="app_bar_font">sans-serif-smallcaps</string>
+    <string name="app_name">EZ Tracker</string>
+    <string name="bar_Fri">Ven</string>
+    <string name="bar_Mon">Lun</string>
+    <string name="bar_Sat">Sam</string>
+    <string name="bar_Sun">Dim</string>
+    <string name="bar_Thurs">Jeu</string>
+    <string name="bar_Tue">Mar</string>
+    <string name="bar_Wed">Mer</string>
+    <string name="birth_yyyymmdd">Anniversaire (YYYY/MM/DD)</string>
+    <string name="choose_Eng">English</string>
+    <string name="choose_french">Français</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activer"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilité des services Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> éprouve un problème avec les services Google Play. Veuillez réessayer."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas pris en charge par votre appareil."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui sont actuellement mis à jour."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Connexion"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string name="current_steps">Étapes en cours</string>
+    <string name="date_of_birth">Date de naissance:</string>
+    <string name="delroy_christie">Delroy Christie</string>
+    <string name="enter_goal_popper">Entrez l\'objectif</string>
+    <string name="friday">Vendredi</string>
+    <string name="goal_steps">Objectif</string>
+    <string name="height">La taille:</string>
+    <string name="home_achievements">Buts</string>
+    <string name="home_dailySteps">Pas quotidiens</string>
+    <string name="home_daily_steps">Pas quotidiens</string>
+    <string name="home_goal">Objectif</string>
+    <string name="home_goalHint">Marcher plus de 5000 marches pendant 30 jours</string>
+    <string name="home_goalspercent">65%</string>
+    <string name="home_phrase">Presque là! Continuez!</string>
+    <string name="home_pie_total">Total</string>
+    <string name="home_remainSteps">Étapes restantes</string>
+    <string name="home_title">Maison</string>
+    <string name="home_totalSteps">Nombre total d\'étapes</string>
+    <string name="home_tuesday">Mardi</string>
+    <string name="home_weekly_steps">Étapes hebdomadaires</string>
+    <string name="homeactive_monday">Lundi</string>
+    <string name="homemenu_quit">Quitter</string>
+    <string name="homemenu_settings">Réglages</string>
+    <string name="homewednesday">Mercredi</string>
+    <string name="indicates_a_required_field">*indique un champ obligatoire</string>
+    <string name="loginToast_email">S\'il vous plaît entrer e-mail</string>
+    <string name="loginToast_incorrect">Email ou mot de passe incorrect</string>
+    <string name="loginToast_pw">Veuillez entrer le mot de passe</string>
+    <string name="loginToast_success">Connecté avec succès</string>
+    <string name="login_LangSelect">Choisir la langue</string>
+    <string name="login_create_account">Créer un compte</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_forgotPw">Mot de passe oublié?</string>
+    <string name="login_home">S\'identifier</string>
+    <string name="login_login">S\'identifier</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_reset_password">Réinitialiser le mot de passe</string>
+    <string name="login_signUp">S\'inscrire</string>
+    <string name="main2_Developers">Développeurs</string>
+    <string name="main2_Statement">Déclaration</string>
+    <string name="menu_sign_out">Déconnexion</string>
+    <string name="percent_to_completion">Pourcentage d\'achèvement</string>
+    <string name="pi_goal">Objectif</string>
+    <string name="pop_EnterVal">Entrez une valeur</string>
+    <string name="pop_Error">Entrez une valeur supérieure à vos étapes actuelles.</string>
+    <string name="pop_Saved">Objectif sauvegardé</string>
+    <string name="pop_connectErr">Peut pas se connecter</string>
+    <string name="push_notifications">Notifications push</string>
+    <string name="register_bday">Anniversaire (YYYY/MM/DD)</string>
+    <string name="register_email">E-mail</string>
+    <string name="register_female">Femelle</string>
+    <string name="register_height_m">La taille (cm)</string>
+    <string name="register_male">Mâle</string>
+    <string name="register_name">Prénom</string>
+    <string name="register_password">Mot de passe</string>
+    <string name="register_registration">Enregistrement</string>
+    <string name="register_weight_kg">Poids (kg)</string>
+    <string name="reset_password">Réinitialiser le mot de passe</string>
+    <string name="saturday">Samedi</string>
+    <string name="save_goal_popper">Enregistrer l\'objectif</string>
+    <string name="save_information">Enregistrer les informations</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
+    <string name="set_goal">Fixer un objectif</string>
+    <string name="set_goal_pop">Ensemble</string>
+    <string name="setting_change_language">Changer de langue</string>
+    <string name="settings">Réglages</string>
+    <string name="settings_SelectLang">Choisir la langue</string>
+    <string name="settings_about_us">À propos de nous</string>
+    <string name="settings_update_information">Mettre à jour les informations</string>
+    <string name="settings_view_information">Voir les informations</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="sunday">Dimanche</string>
+    <string name="thursday">Jeudi</string>
+    <string name="toastHome_connErr">Ne peut pas se connecter au serveur</string>
+    <string name="toastHome_connectErr">Impossible de contacter le serveur</string>
+    <string name="toastHome_signedout">Se déconnecter</string>
+    <string name="toastReg_email">S\'il vous plaît entrer e-mail</string>
+    <string name="toastReg_fail">Impossible de s\'inscrire</string>
+    <string name="toastReg_pw">Veuillez entrer le mot de passe</string>
+    <string name="toastReg_success">Enregistré avec succès</string>
+    <string name="toastReset_dne">Le courrier électronique n\'existe pas</string>
+    <string name="toastReset_email">S\'il vous plaît entrer e-mail</string>
+    <string name="toastReset_sent">E-mail envoyé</string>
+    <string name="toastView_unavail">Données non disponibles, veuillez réessayer plus tard.</string>
+    <string name="update_Saved">Informations sauvegardées</string>
+    <string name="update_entDob">Entrez une date de naissance</string>
+    <string name="update_entHeight">Entrez une hauteur</string>
+    <string name="update_entName">Entrez un nom</string>
+    <string name="update_entWeight">Entrez un poids</string>
+    <string name="update_height">La taille (cm)</string>
+    <string name="update_information">Mettre à jour les informations</string>
+    <string name="update_weight">Poids (kg)</string>
+    <string name="verify_email">Vérifier les courriels</string>
+    <string name="version_number">v0.5</string>
+    <string name="view_DOB">Date de naissance</string>
+    <string name="view_Height">La taille</string>
+    <string name="view_Name">Prénom</string>
+    <string name="view_Weight">Poids</string>
+    <string name="view_information">Voir les informations</string>
+    <string name="view_information_header">Voir les informations</string>
+    <string name="view_weight">Poids:</string>
+    <string name="weekly_goal">Objectif hebdomadaire</string>
+    <string name="welcome">Bienvenue à la maison</string>
+</resources>
